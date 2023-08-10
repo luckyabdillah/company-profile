@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+        <!-- my CSS -->
+        <link rel="stylesheet" href="css/style.css" />
+        <!-- Materialize Icon -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Company Profile | Materialize</title>
+    </head>
+
+    <body id="home" class="scrollspy">
+        <!-- Navbar -->
+
+        <div class="navbar-fixed">
+            <nav class="brown darken-2">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a href="#home" class="brand-logo">LGU</a>
+                        <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#clients">Clients</a></li>
+                            <li><a href="#service">Services</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <ul class="sidenav" id="mobile-nav">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#clients">Clients</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- Slider -->
+
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="img/1.jpg" />
+                    <div class="caption left-align">
+                        <h3>This is our big Tagline!</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/2.jpg" />
+                    <div class="caption right-align">
+                        <h3>This is our big Tagline!</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/3.jpg" />
+                    <div class="caption center-align">
+                        <h3>This is our big Tagline!</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <section id="about" class="about scrollspy">
+            <div class="container">
+                <div class="row">
+                    <h3 class="center light grey-text text-darken-4">About Us</h3>
+                    <div class="col m6 light">
+                        <h5>We Are Professionals</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus id explicabo illo qui cumque, dignissimos quos aliquam, doloremque placeat sit nostrum iusto voluptatum fugit maxime ex dolor ullam nisi illum?</p>
+                    </div>
+                    <div class="col m6 light">
+                        <p>WEB DEVELOPMENT</p>
+                        <div class="progress">
+                            <div class="determinate brown" style="width: 90%"></div>
+                        </div>
+                        <p>MOBILE APP DEVELOPMENT</p>
+                        <div class="progress">
+                            <div class="determinate brown" style="width: 80%"></div>
+                        </div>
+                        <p>GAME DEVELOPMENT</p>
+                        <div class="progress">
+                            <div class="determinate brown" style="width: 87%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clients -->
+
+        <section id="clients" class="clients scrollspy">
+            <div class="parallax-container">
+                <div class="parallax"><img src="img/slider/4.png" /></div>
+
+                <div class="container center white-text client">
+                    <h3 class="light">Our Clients</h3>
+                    <div class="row">
+                        <div class="col m4 s12 center">
+                            <img src="img/clients/tokopedia.png" alt="" />
+                        </div>
+                        <div class="col m4 s12 center">
+                            <img src="img/clients/gojek.png" alt="" />
+                        </div>
+                        <div class="col m4 s12 center">
+                            <img src="img/clients/traveloka.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="service" class="service grey lighten-3 scrollspy">
+            <div class="container">
+                <div class="row center">
+                    <h3 class="light">Our Services</h3>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-content">
+                                <span class="card-title"><i class="material-icons medium">desktop_windows</i></span>
+                                <h5>Web Development</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-content">
+                                <span class="card-title"><i class="material-icons medium">developer_mode</i></span>
+                                <h5>Mobile App</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card">
+                            <div class="card-content">
+                                <span class="card-title"><i class="material-icons medium">gamepad</i></span>
+                                <h5>Game Development</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio -->
+
+        <section id="portfolio" class="portfolio scrollspy">
+            <div class="container">
+                <div class="row center">
+                    <h3 class="light">Portfolio</h3>
+                    <div class="col m3 s6">
+                        <div class="card">
+                            <div class="card-image">
+                                <img class="materialboxed" src="img/portfolio/1.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m3 s6">
+                        <div class="card">
+                            <div class="card-image">
+                                <img class="materialboxed" src="img/portfolio/2.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m3 s6">
+                        <div class="card">
+                            <div class="card-image">
+                                <img class="materialboxed" src="img/portfolio/3.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m3 s6">
+                        <div class="card">
+                            <div class="card-image">
+                                <img class="materialboxed" src="img/portfolio/4.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row center">
+                    <div class="col m3 s6">
+                        <div class="card">
+                            <div class="card-image">
+                                <img class="materialboxed" src="img/portfolio/5.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m3 s6">
+                        <div class="card">
+                            <div class="card-image">
+                                <img class="materialboxed" src="img/portfolio/6.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m3 s6">
+                        <div class="card">
+                            <div class="card-image">
+                                <img class="materialboxed" src="img/portfolio/3.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m3 s6">
+                        <div class="card">
+                            <div class="card-image">
+                                <img class="materialboxed" src="img/portfolio/4.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+
+        <section id="contact" class="contact grey lighten-3 scrollspy">
+            <div class="container">
+                <div class="row">
+                    <h3 class="center light">Contact Us</h3>
+                    <div class="col m5 s12">
+                        <div class="card brown darken-2 center">
+                            <div class="card-content white-text">
+                                <span class="card-title"><i class="material-icons">mail</i></span>
+                                <h5>Contact</h5>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <ul class="collection with-header">
+                            <li class="collection-item"><h4>Our Office</h4></li>
+                            <li class="collection-item">Liong Group Universal</li>
+                            <li class="collection-item">Jl. Graha Abadi No. 27</li>
+                            <li class="collection-item">Indonesia</li>
+                        </ul>
+                    </div>
+                    <div class="col m7 s12">
+                        <div class="card">
+                            <div class="card-content">
+                                <h5>Please fill out this form</h5>
+                                <form>
+                                    <div class="input-field">
+                                        <input id="name" type="text" class="validate" required />
+                                        <label for="name">Name</label>
+                                    </div>
+                                    <div class="input-field">
+                                        <i class="material-icons prefix">email</i>
+                                        <input id="email" name="email" type="email" class="validate" />
+                                        <label for="email">Email</label>
+                                    </div>
+                                    <div class="input-field">
+                                        <i class="material-icons prefix">phone</i>
+                                        <input id="icon_telephone" type="tel" class="validate" />
+                                        <label for="icon_telephone">Telephone</label>
+                                    </div>
+                                    <div class="input-field">
+                                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                        <label for="textarea1">Textarea</label>
+                                    </div>
+                                    <button class="waves-effect waves-light btn brown" type="button">Send</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+
+        <footer class="brown center">
+            <p class="grey-text text-lighten-4">Copyright &copy; 2023. Made with <i class="material-icons tiny">favorite</i> by using <b>Materialize CSS</b></p>
+        </footer>
+
+        <!--JavaScript at end of body for optimized loading-->
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script>
+            var sideNav = document.querySelectorAll(".sidenav");
+            M.Sidenav.init(sideNav);
+
+            const slider = document.querySelectorAll(".slider");
+            M.Slider.init(slider, {
+                indicators: false,
+                interval: 3000,
+                height: 450,
+            });
+
+            const parallax = document.querySelectorAll(".parallax");
+            M.Parallax.init(parallax);
+
+            const mBox = document.querySelectorAll(".portfolio img");
+            M.Materialbox.init(mBox);
+
+            const scroll = document.querySelectorAll(".scrollspy");
+            M.ScrollSpy.init(scroll, {
+                scrollOffset: 50,
+            });
+        </script>
+    </body>
+</html>

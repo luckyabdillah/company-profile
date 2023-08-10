@@ -1,0 +1,65 @@
+.slider h3,
+.slider h5,
+.clients h3 {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+}
+
+section,
+footer {
+    padding: 20px 0;
+}
+
+.clients {
+    padding: 0 0;
+}
+
+.parallax-container {
+    height: 20%;
+}
+
+.parallax img {
+    filter: grayscale(1);
+    opacity: 0.5 !important;
+}
+
+.client img {
+    max-width: 150px;
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.8));
+}
+
+.service .card {
+    padding-top: 10%;
+}
+
+.progress {
+    position: relative;
+    height: 4px;
+    display: block;
+    width: 100%;
+    background-color: #d3bab2;
+    border-radius: 2px;
+    margin: 0.5rem 0 1rem 0;
+    overflow: hidden;
+}
+
+input:not([type]):focus:not([readonly]),
+input[type="text"]:not(.browser-default):focus:not([readonly]),
+input[type="email"]:not(.browser-default):focus:not([readonly]),
+input[type="tel"]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #795548;
+    -webkit-box-shadow: 0 1px 0 0 #d3bab2;
+    box-shadow: 0 1px 0 0 #d3bab2;
+}
+
+input:not([type]):focus:not([readonly]) + label,
+input[type="text"]:not(.browser-default):focus:not([readonly]) + label,
+input[type="email"]:not(.browser-default):focus:not([readonly]) + label,
+input[type="tel"]:not(.browser-default):focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+    color: #795548;
+}
+
+.input-field .prefix.active {
+    color: #795548;
+}
